@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#000"
+    android:gravity="left"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="128dp"
+        android:layout_gravity="left"
+
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="false"
+        android:padding="16dp"
+        app:srcCompat="@drawable/ic_android_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="left|right"
+        android:padding="8dip"
+        android:singleLine="true"
+        android:text="https://behjatii.ir"
+        android:textColor="#fff"
+        android:textSize="14dip"/>
+
+</LinearLayout>

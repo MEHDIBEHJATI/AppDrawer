@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppDrawer</string>
+    <string name="title_action1">Send Message</string>
+    <string name="title_update">Update</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_share">Share</string>
+    <string name="title_rate">Rate</string>
+    <string name="title_about">About</string>
+</resources>
